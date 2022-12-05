@@ -6,10 +6,10 @@ alternate_urls:
 -   /quarkus
 releasePolicyLink: https://github.com/quarkusio/quarkus/blob/main/SECURITY.md
 changelogTemplate: "https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final"
+
 auto:
--   git: https://github.com/quarkusio/quarkus.git
-# See https://rubular.com/r/NyoXd9iCLFcl25 for reference
-    regex: '^v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)(\.Final)?$'
+-   github_releases: quarkusio/quarkus
+
 releases:
 -   releaseCycle: "2.14"
     eol: false
