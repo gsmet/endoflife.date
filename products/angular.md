@@ -10,8 +10,10 @@ changelogTemplate: https://github.com/angular/angular/releases/tag/__LATEST__
 purls:
 -   purl: pkg:npm/@angular/core
 -   purl: pkg:github/angular/angular
+
 auto:
--   git: https://github.com/angular/angular.git
+-   github_releases: angular/angular
+
 releases:
 -   releaseCycle: "15"
     support: 2023-05-18
