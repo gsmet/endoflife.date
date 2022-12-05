@@ -8,9 +8,10 @@ activeSupportColumn: General Support
 eolColumn: Extended Support
 releaseDateColumn: true
 versionCommand: rabbitmqctl --version
+
 auto:
--   git: https://github.com/rabbitmq/rabbitmq-server.git
-    regex: ^(rabbitmq_v(?<major>[1-9]\d*)_(?<minor>0|[1-9]\d*)_(?<patch>0|[1-9]\d*)|v(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*))$
+-   github_releases: rabbitmq/rabbitmq-server
+
 releases:
 -   releaseCycle: "3.11"
     eol: false
