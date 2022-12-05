@@ -5,9 +5,11 @@ category: server-app
 iconSlug: consul
 releasePolicyLink: https://support.hashicorp.com/hc/articles/360021185113
 changelogTemplate: https://github.com/hashicorp/consul/blob/v__LATEST__/CHANGELOG.md
+
 auto:
--   git: https://github.com/hashicorp/consul.git
-purls:
+-   github_releases: hashicorp/consul
+
+- purls:
 -   repology: consul
 -   purl: pkg:brew/consul
 -   purl: pkg:docker/library/consul
