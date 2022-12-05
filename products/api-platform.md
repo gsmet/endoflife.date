@@ -9,8 +9,10 @@ changelogTemplate: |
   https://github.com/api-platform/core/releases/tag/v__LATEST__
 releaseDateColumn: true
 category: framework
+
 auto:
--   git: https://github.com/api-platform/core.git
+-   github_releases: api-platform/core
+
 releases:
 -   releaseCycle: "3.0"
     support: true
